@@ -1,0 +1,14 @@
+PREFIX = "[BOT] "
+ENABLED_CHANNELS = {"test", "another-channel"}
+FIFUNIA_CHANNELS = {"test", "fifunia"}
+
+
+class Token:
+    description = "token_desc"
+    id_ = "token_id"
+    access_token = "access_token"
+
+
+MATTERMOST_DOMAIN = "example.com"
+
+DB_PATH = "/tmp/db_path"  # no extension
